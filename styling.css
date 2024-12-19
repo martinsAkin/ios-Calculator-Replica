@@ -1,0 +1,52 @@
+*{
+ padding: 0;
+ margin: 0;
+ box-sizing: border-box;
+}
+
+/* media Query  */
+@media (min-width: 320px) and (max-width: 756px) {
+ .mainCalculatorBody{
+  margin: 2rem 3rem;
+  background-color: teal;
+  width: max-content;
+  border-radius: 20px;
+  border: 1px solid white;
+  padding: 2rem;
+ }
+ .figureScreen{
+  background-color: black;
+  color: white;
+  height: 5rem;
+  width: 15rem;
+  margin-bottom: 1rem;
+  text-align: end;
+ }
+ #numbersGrid{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 0.5rem;
+  font-size: bold;
+ }
+ .number{
+  text-align: center;
+  padding: 1rem;
+  border-radius: 50%;
+  background-color: #1b1b1e;
+  color: white;
+ }
+ .grey{
+  background-color: #878787;
+ }
+ .orange{
+  background-color: #F56E0F;
+ }
+ #displayNumber{
+  display: inline-block;
+  font-size: 20px;
+  margin-top: 1rem;
+ }
+ #display{
+  font-size: 35px;
+ }
+}
